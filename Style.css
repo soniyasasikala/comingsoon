@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    background-image:linear-gradient(rgb(26, 13, 0), rgba(0,0,0,0.5)), url("image/IndianSpices.jpg");
+    opacity: 3;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    z-index: 1;
+    
+}
+/* .main-container{
+    background-image: url("image/img.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+   
+} */
+.head h1{
+    margin-bottom: 20px;
+    line-height: 1.5;
+    margin-top: 167px;
+    text-align: center;
+    margin: auto;
+    font-size: 60px;
+    font-family: "Work Sans", Arial, sans-serif;
+    font-weight: 300;
+    color: #fff;
+  
+
+}
+.head p{
+    color: #fff;
+    text-align: center;
+    font-size: 15px;
+  
+
+}
+.link{
+    color:#e38181;
+    text-decoration: none;
+}
+.icon{
+    border: 1px solid #680d0d;
+    border-radius: 13px;
+    padding: 4px;
+    background: #680d0d;
+    color: #000;
+  
+}
+h5{
+    color: #ba0a0a;
+}
+h2{
+    color: #fc0000;
+}
+.icon:hover{
+    background: #fff;
+}
+.copyright{
+  
+    color: #fff;
+}
+.iconcontainer{
+    margin: auto;;
+}
+
+li{
+    display: inline-block;
+    padding: 0px 10px
+}
+
+
+@media only screen and (min-width: 400px) and (max-width: 546px)  {
+    h1{
+        font-size: 50px;
+    }
+   
+    }
+    @media only screen and (min-width: 320px)   {
+        h1{
+            font-size: 30px;
+        }
+       
+        }
